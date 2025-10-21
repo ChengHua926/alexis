@@ -24,5 +24,12 @@
 	},
 	"observability": {
 		"enabled": true
+	},
+	"vars": {
+		"PINECONE_HOST": "https://cleopatra-homveqo.svc.aped-4627-b74a.pinecone.io"
 	}
+	// Note: PINECONE_API
+	// _KEY and OPENAI_API_KEY should be set as secrets using:
+	// wrangler secret put PINECONE_API_KEY
+	// wrangler secret put OPENAI_API_KEY
 }
